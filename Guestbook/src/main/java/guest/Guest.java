@@ -5,7 +5,9 @@ import java.sql.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
- 
+
+//Adicionando um comentario.
+
 @Entity
 public class Guest implements Serializable {
     private static final long serialVersionUID = 1L;
