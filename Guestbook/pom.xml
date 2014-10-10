@@ -90,7 +90,12 @@
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<stopKey>foo</stopKey>
 					<stopPort>9999</stopPort>
-					
+					<systemproperties>
+						<systemproperty>
+							<name>jetty.port</name>
+							<value>8888</value>
+						</systemproperty>
+					</systemproperties>
 				</configuration>
 				<executions>
 					<execution>
