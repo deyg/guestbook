@@ -91,6 +91,13 @@
                      <scanIntervalSeconds>10</scanIntervalSeconds>
                      <stopKey>foo</stopKey>
                      <stopPort>9999</stopPort>
+                    <connectors>
+				        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+				          <!-- Porta do Jetty -->
+				          <port>8888</port>
+				          <maxIdleTime>60000</maxIdleTime>
+				        </connector>
+			      	</connectors>
                  </configuration>
                  <executions>
                      <execution>
